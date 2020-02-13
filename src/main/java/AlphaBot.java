@@ -16,7 +16,6 @@ public class AlphaBot extends TelegramLongPollingBot {
         } catch (TelegramApiRequestException e) {
             e.printStackTrace();
         }
-
     }
 
     public void sendMsg(Message message, String text) {
